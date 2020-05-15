@@ -1,0 +1,39 @@
+#slideshowcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid black;
+  height: 500px;
+  background-color: black;
+}
+
+#slideshowdisplay {
+  margin: auto;
+  position: relative;
+  height: 400px;
+  width: 400px;
+  border: 2px solid white;
+  overflow: hidden;
+}
+
+#slides {
+  display: flex;
+  transition: transform 500ms;
+}
+
+#buttoncontainer {
+  margin: auto;
+  display: flex;
+}
+
+.slidebutton {
+  height: 30px;
+  width: 30px;
+  margin: 2px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.activebutton {
+  border: 2px solid blue;
+}
